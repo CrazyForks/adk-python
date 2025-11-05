@@ -15,11 +15,13 @@
 from .base_plugin import BasePlugin
 from .logging_plugin import LoggingPlugin
 from .plugin_manager import PluginManager
+from .rate_limit_plugin import RateLimitPlugin
 from .reflect_retry_tool_plugin import ReflectAndRetryToolPlugin
 
 __all__ = [
     'BasePlugin',
     'LoggingPlugin',
     'PluginManager',
+    'RateLimitPlugin',
     'ReflectAndRetryToolPlugin',
 ]
